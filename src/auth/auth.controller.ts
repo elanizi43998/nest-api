@@ -1,5 +1,4 @@
 import { Body, Controller, HttpCode, HttpStatus, Post, Req } from '@nestjs/common';
-import { domainToASCII } from 'url';
 import { AuthService } from './auth.service';
 import { AuthDto } from './dto';
 
